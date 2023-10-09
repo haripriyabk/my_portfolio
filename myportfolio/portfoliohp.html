@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haripriya B K</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:rgb(85, 187, 85) ;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            /*to make sure footer is always at the bottom*/
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 74, 10);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px ;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(3, 43, 3);
+            font-size: 1.01rem;
+        }
+        .left{
+            font-size: 1.5rem ;
+        }
+        .firstSection{
+            justify-content: space-around;
+            display: flex;
+            margin: 80px 0;
+            align-items: center;
+        }
+        .firstSection > div{
+            width: 35%;
+
+        }
+        .leftSection{
+            font-size:1.8rem ;
+        }
+        .purple{
+            color: rgb(3, 43, 3);
+        }
+        #element{
+           color:  rgb(3, 43, 3); 
+        }
+        footer{
+            background-color:rgb(10, 74, 10);
+            margin-top: auto;
+            height: 155px;
+        } 
+        .footerBody{
+            display: flex;
+            /*centering the div*/
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 10px;
+        }
+        .footerFirst ul{
+            margin-top: 15px;
+            list-style: none;
+        }
+        .footerFirst ul li a{
+            
+            text-decoration: none;
+            color: white;
+        }
+        .left a{
+            text-decoration: none;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><a href="/portfoliohp.html">Haripriya's Portfolio</a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/portfoliohp.html">Home</a></li>
+                    <li><a href="/educationhp.html">Education</a></li>
+                    <li><a href="/skillshp.html">Skills & Certifications</a></li>
+                    <li><a href="/projectshp.html">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Haripriya B K,</span>
+                <div>I am pursuing</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footerBody">
+            <div class="footerFirst">
+                <h3>Haripriya's Portfolio</h3>
+                <ul>
+                    <li><a href="mailto:haripriyabk1402@gmail.com">E-Mail: haripriyabk1402@gmail.com</a></li>
+                    <li>Phone: +91 6362146056</li>
+                    <li><a href="https://www.linkedin.com/in/haripriya-b-k-5409a283" target="_blank">LinkedIn: Haripriya B K</a></li>
+                    <li><a href="https://github.com/haripriyabk">GitHub: haripriyabk</a></li>
+                </ul>
+            </div>
+            <div class="footerSecond">
+                
+            </div>
+            <div class="footerThird"></div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Bachelor of Engineering','in','Information Science and Engineering'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
